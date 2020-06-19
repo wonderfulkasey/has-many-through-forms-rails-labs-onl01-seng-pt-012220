@@ -11,7 +11,7 @@ describe 'Posts', type: 'feature' do
       fill_in('post_content', :with => 'This is going to be an awesome post!')
     end
 
-  
+
 
     it 'can create a post with a previously created category' do
       check('Cool')
